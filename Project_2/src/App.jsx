@@ -1,20 +1,20 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Navbar from './components/Navbar.jsx'
-import Home from './components/Home/Home.jsx'
-import PageNotFound from './components/PageNotFound.jsx'
-import Footer from './components/Footer.jsx'
-import Service from './components/Service.jsx'
-import About from './components/About.jsx'
-import Blogs from './components/Blogs.jsx'
-import Contact from './components/Contact.jsx'
-import SignUp from './components/SignUp.jsx'
-import AustraliaStudy from './components/Study/AustraliaStudy.jsx'
-import CanadaStudy from './components/Study/CanadaStudy.jsx'
-import UsaStudy from './components/Study/UsaStudy.jsx'
-import UkStudy from './components/Study/UkStudy.jsx'
-import EuropeStudy from './components/Study/EuropeStudy.jsx'
-import SingaporeStudy from './components/Study/SingaporeStudy.jsx'
-import ViewUniversity from './components/Study/University/ViewUniverty.jsx' // Fixed spelling
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from './components/Home/Home';
+import PageNotFound from './components/PageNotFound';
+import Footer from './components/Footer';
+import Service from './components/Service';
+import About from './components/About';
+import Blogs from './components/Blogs';
+import Contact from './components/Contact';
+import SignUp from './components/SignUp';
+import AustraliaStudy from './components/Study/AustraliaStudy';
+import CanadaStudy from './components/Study/CanadaStudy';
+import UsaStudy from './components/Study/UsaStudy';
+import Ukstudy from './components/Study/Ukstudy';
+import EuropeStudy from './components/Study/EuropeStudy';
+import SingaporeStudy from './components/Study/SingaporeStudy';
+import ViewUniversity from './components/Study/University/ViewUniverty';
 
 export default function App() {
   return (
